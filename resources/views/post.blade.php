@@ -7,7 +7,7 @@
 
       
       <div class="text-base text-gray-500">
-         <a href="#">{{ $post['author'] }} | 17 November 2024</a>
+         <a href="#">{{ $post->author->name }} | 17 November 2024</a>
       </div>
 
       <p class="my-4 font-light">{{ $post['body'] }}</p>
